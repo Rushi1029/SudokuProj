@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+
+//Provided by the teacher
 public class Cell {
     private int cellNum;
     private int value;

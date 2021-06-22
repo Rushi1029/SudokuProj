@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+
+//Entire class developed by myself
 public class Sudoku {
     
 	Cell[][] grid;
