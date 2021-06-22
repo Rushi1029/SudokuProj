@@ -1,3 +1,5 @@
+//Only made create board on random numbers on this file
+
 public class MyProgram {
 
     private static Sudoku puzzle;

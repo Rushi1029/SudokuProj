@@ -29,4 +29,24 @@
 ## How?
 
 - isValid()
-    - Works by traversing in in 3 different ways:
+
+    - Works by traversing in in 3 different ways checking in each that there is no repeat and that the numbers lie within 1-9 through a for loop iterating through:
+
+        1. 3x3 squares
+
+        2. Rows
+
+        3. Columns
+
+- createPencilMarks()
+    1. Works through by walking thorugh the array and checking each element to see if it is blank or with a value of 0
+
+    2. If zero, it initializes an array list of 1-9 for the pencil marks attribute that can be seen in cell.java
+
+    3. After attribute is created, it iterates in the same way as in is valid and sees if any of the values in the 3x3, rows, or columns are within the arraylist and removing them if it is found. 
+
+    4. This process removes any duplicates from the array and board that are in conflict and gives us the possible numbers.
+
+# Next Steps with this Project
+
+- No scheduled plans to adjust anything, might add one more way to iterate all the way through all the possible pencil marks to create a solution.
