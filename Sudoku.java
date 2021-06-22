@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-//Entire class developed by myself
+//Entire class developed by student (myself)
 public class Sudoku {
     
 	Cell[][] grid;
